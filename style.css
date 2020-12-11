@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.input_area {
+    display: flex;
+    justify-content: center;
+}
+
+.input_button {
+    border: 2px solid MediumSeaGreen;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.input_title, .input_text, .input_recipient {
+
+    background-color: white;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.input_title {
+    border: 2px solid Tomato;
+}
+
+.input_text {
+    border: 2px solid orange;
+}
+
+.input_recipient{
+    border: 2px solid SlateBlue;
+}
+
+.tasks_area {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    height: 850px;
+}
+
+.inbox {
+    background-color: Tomato;
+    padding: 10px;
+}
+
+.todo {
+    background-color: orange;
+    padding: 10px;
+}
+
+.in_progress {
+    background-color: SlateBlue;
+    padding: 10px;
+}
+
+.review {
+    background-color: MediumSeaGreen;
+    padding: 10px;
+}
+
+.done {
+    background-color: DodgerBlue;
+    padding: 10px;
+}
+
+.card {
+    background-color: LightGray;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card_recipient {
+    font-style: italic;
+}
